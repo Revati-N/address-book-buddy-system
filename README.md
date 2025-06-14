@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# Contact Management System
 
-## Project info
+A simple and elegant contact management system built with Lovable, Supabase, and deployed live.
 
-**URL**: https://lovable.dev/projects/8351e322-1d06-4f25-82ab-28c56530509c
+## 🌐 Live Demo
+Try it here: **[Link](https://address-book-buddy-system.lovable.app)**
 
-## How can I edit this code?
+## ✨ Features
+- Add new contacts with name, email, phone, and company
+- Search contacts by name, email, or company
+- Clean, responsive design
+- Real-time data storage with Supabase
+- Automatic data persistence across sessions
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
+- **Frontend**: Lovable (no-code platform)
+- **Framework**: React with TypeScript
+- **Styling**: Tailwind CSS + shadcn-ui
+- **Database**: Supabase
+- **Build Tool**: Vite
+- **Version Control**: GitHub
+- **Deployment**: Lovable hosting
 
-**Use Lovable**
+## 🚀 Setup Process
+This project was built using:
+1. **Lovable** for visual app development
+2. **Supabase** for database and backend services
+3. **GitHub** for version control and collaboration
+4. **Lovable hosting** for deployment
 
+## 📝 How to Edit This Code
+
+### Use Lovable (Recommended)
 Simply visit the [Lovable Project](https://lovable.dev/projects/8351e322-1d06-4f25-82ab-28c56530509c) and start prompting.
-
 Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
-
+### Use Your Preferred IDE
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+**Requirements**: Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone https://github.com/Revati-N/address-book-buddy-system.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd address-book-buddy-system
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Edit Directly in GitHub
+- Navigate to the desired file(s)
+- Click the "Edit" button (pencil icon) at the top right
+- Make your changes and commit
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Use GitHub Codespaces
+- Navigate to the main page of your repository
+- Click on the "Code" button (green button)
+- Select the "Codespaces" tab
+- Click on "New codespace" to launch a new environment
+- Edit files directly within the Codespace
 
-**Use GitHub Codespaces**
+## 🚀 Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Via Lovable
+Simply open [Lovable](https://lovable.dev/projects/8351e322-1d06-4f25-82ab-28c56530509c) and click on Share → Publish.
 
-## What technologies are used for this project?
+### Custom Domain
+You can connect a custom domain by navigating to Project > Settings > Domains and clicking Connect Domain.
+[Read more about custom domains](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
 
-This project is built with:
+## 🔮 Future Improvements
+- Contact categories (Family, Friends, Work, etc.)
+- Edit and delete contact functionality
+- Export contacts to CSV
+- Import contacts from files
+- Contact photos/avatars
+- Advanced search filters
+- Bulk operations
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📊 Project Info
+- **Lovable Project URL**: https://lovable.dev/projects/8351e322-1d06-4f25-82ab-28c56530509c
+- **Live Demo**: https://address-book-buddy-system.lovable.app
+- **GitHub Repository**: https://github.com/Revati-N/address-book-buddy-system
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/8351e322-1d06-4f25-82ab-28c56530509c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ using Lovable's no-code platform
